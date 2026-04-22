@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-
+void jbInit();
 
 
 
@@ -423,3 +423,7 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void jbInit()
+{
+printf("JB\n");
+}
